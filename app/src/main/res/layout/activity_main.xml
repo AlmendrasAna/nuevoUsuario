@@ -95,6 +95,7 @@
         android:textColor="#C3FFFFFF"
         android:textSize="16sp"
         app:icon="@drawable/thenounproject_"
+        app:iconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/passwordTxt"
         app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
 
