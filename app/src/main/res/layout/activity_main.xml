@@ -15,18 +15,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
-        tools:srcCompat="@drawable/thenounproject_" />
+        app:layout_constraintVertical_bias="0.06999999"
+        app:srcCompat="@drawable/baseline_account_circle_24"
+        tools:srcCompat="@drawable/baseline_account_circle_24" />
 
     <EditText
         android:id="@+id/nameTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#F4E7E7"
         android:ems="10"
         android:hint="Nombre"
         android:inputType="text"
+        android:textColor="#734623"
+        android:textColorHint="#716353"
+        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -35,9 +41,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:background="#F4E7E7"
         android:ems="10"
         android:hint="Apellido"
         android:inputType="text"
+        android:textColor="#734623"
+        android:textColorHint="#716353"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/nameTxt"
         app:layout_constraintStart_toStartOf="@+id/nameTxt"
         app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
@@ -46,9 +56,14 @@
         android:id="@+id/emailTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#F4E7E7"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:textColor="#734623"
+        android:textColorHint="#716353"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/lastnameTxt"
         app:layout_constraintStart_toStartOf="@+id/lastnameTxt"
         app:layout_constraintTop_toBottomOf="@+id/lastnameTxt" />
@@ -58,21 +73,31 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:background="#F4E7E7"
         android:ems="10"
         android:hint="Contraseña"
         android:inputType="textPassword"
+        android:textColor="#734623"
+        android:textColorHint="#716353"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/emailTxt"
         app:layout_constraintStart_toStartOf="@+id/emailTxt"
         app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
 
     <Button
-        android:id="@+id/commit"
+        android:id="@+id/buttonUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="209dp"
         android:layout_marginTop="8dp"
-        android:background="#00BFA5"
+        android:backgroundTint="#CFAF99"
+        android:backgroundTintMode="add"
         android:text="Crear Usuario"
+        android:textColor="#C3FFFFFF"
+        android:textSize="16sp"
+        app:icon="@drawable/thenounproject_"
         app:layout_constraintEnd_toEndOf="@+id/passwordTxt"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
 
     <androidx.constraintlayout.widget.Guideline
