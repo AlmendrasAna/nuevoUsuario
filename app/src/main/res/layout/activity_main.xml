@@ -58,8 +58,11 @@
     <EditText
         android:id="@+id/passwordTxt"
         style="@style/styleEditTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:hint="Contraseña"
+        android:inputType="text|textPassword"
         app:layout_constraintEnd_toEndOf="@+id/emailTxt"
         app:layout_constraintStart_toStartOf="@+id/emailTxt"
         app:layout_constraintTop_toBottomOf="@+id/emailTxt" />

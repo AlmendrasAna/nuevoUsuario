@@ -3,7 +3,7 @@
     <style name="Base.Theme.NuevoUsuario" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-
+º
         <item name="android:background">#5600802E</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColor">#7700ff</item>

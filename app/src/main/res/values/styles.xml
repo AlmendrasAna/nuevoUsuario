@@ -5,8 +5,7 @@
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">#90FFD500</item>
-        <item name="android:inputType">text</item>
-        <item name="android:textSize">20sp</item>
+
     </style>
 
 </resources>
