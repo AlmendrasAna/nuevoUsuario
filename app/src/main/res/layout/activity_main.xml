@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FABBDB"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="187dp"
         android:layout_height="115dp"
+        android:background="#72FFC000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,65 +21,45 @@
 
     <EditText
         android:id="@+id/nameTxt"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        style="@style/styleEditTxt"
         android:layout_marginTop="16dp"
-        android:background="#F4E7E7"
-        android:ems="10"
         android:hint="Nombre"
-        android:inputType="text"
-        android:textColor="#734623"
-        android:textColorHint="#716353"
-        android:textSize="20sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/lastnameTxt"
+        style="@style/styleEditTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="#F4E7E7"
         android:ems="10"
         android:hint="Apellido"
         android:inputType="text"
-        android:textColor="#734623"
-        android:textColorHint="#716353"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/nameTxt"
         app:layout_constraintStart_toStartOf="@+id/nameTxt"
         app:layout_constraintTop_toBottomOf="@+id/nameTxt" />
 
     <EditText
         android:id="@+id/emailTxt"
+        style="@style/styleEditTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="#F4E7E7"
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColor="#734623"
-        android:textColorHint="#716353"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/lastnameTxt"
         app:layout_constraintStart_toStartOf="@+id/lastnameTxt"
         app:layout_constraintTop_toBottomOf="@+id/lastnameTxt" />
 
     <EditText
         android:id="@+id/passwordTxt"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        style="@style/styleEditTxt"
         android:layout_marginTop="8dp"
-        android:background="#F4E7E7"
-        android:ems="10"
         android:hint="Contraseña"
-        android:inputType="textPassword"
-        android:textColor="#734623"
-        android:textColorHint="#716353"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/emailTxt"
         app:layout_constraintStart_toStartOf="@+id/emailTxt"
         app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
@@ -89,13 +69,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:backgroundTint="#CFAF99"
+        android:backgroundTint="#C9FDA900"
         android:backgroundTintMode="add"
         android:text="Crear Usuario"
-        android:textColor="#C3FFFFFF"
         android:textSize="16sp"
         app:icon="@drawable/thenounproject_"
-        app:iconTint="#FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/passwordTxt"
         app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
 
